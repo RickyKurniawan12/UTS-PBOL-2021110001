@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uts.rickykurniawan.pkg2021110001.pujasera.FXML_pilihmenuController">
+   <children>
+      <Button fx:id="btnakhir" layoutX="254.0" layoutY="353.0" mnemonicParsing="false" onAction="#akhirklik" text="akhir" />
+      <Button fx:id="btnsesudah" layoutX="186.0" layoutY="353.0" mnemonicParsing="false" onAction="#sesudahklik" text="sesudah" />
+      <Button fx:id="btnsebelum" layoutX="111.0" layoutY="353.0" mnemonicParsing="false" onAction="#sebelumklik" text="sebelum" />
+      <Button fx:id="btnawal" layoutX="36.0" layoutY="353.0" mnemonicParsing="false" onAction="#awalklik" text="awal" />
+      <TableView fx:id="tbvmenu" layoutX="36.0" layoutY="73.0" prefHeight="266.0" prefWidth="524.0">
+         <columns>
+            <TableColumn prefWidth="75.0" text="C1" />
+            <TableColumn prefWidth="75.0" text="C2" />
+         </columns>
+      </TableView>
+      <Button fx:id="btnbatal" layoutX="509.0" layoutY="34.0" mnemonicParsing="false" onAction="#batalklik" text="batal" />
+      <Button fx:id="btnpilih" layoutX="441.0" layoutY="34.0" mnemonicParsing="false" onAction="#pilihklik" text="pilih" />
+      <Button fx:id="btncari" layoutX="373.0" layoutY="34.0" mnemonicParsing="false" onAction="#cariklik" text="cari" />
+      <TextField fx:id="txtisi" layoutX="205.0" layoutY="34.0" />
+      <ComboBox fx:id="cmbfield" layoutX="36.0" layoutY="34.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>

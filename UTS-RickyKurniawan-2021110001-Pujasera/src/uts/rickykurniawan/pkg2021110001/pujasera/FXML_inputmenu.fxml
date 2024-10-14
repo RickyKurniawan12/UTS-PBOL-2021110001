@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uts.rickykurniawan.pkg2021110001.pujasera.FXML_inputmenuController">
+   <children>
+      <Button fx:id="btnkeluar" layoutX="238.0" layoutY="163.0" mnemonicParsing="false" onAction="#keluarklik" text="Keluar" />
+      <Button fx:id="btnbatal" layoutX="164.0" layoutY="163.0" mnemonicParsing="false" onAction="#batalklik" text="Batal" />
+      <Button fx:id="btnsimpan" layoutX="90.0" layoutY="163.0" mnemonicParsing="false" onAction="#simpanklik" text="Simpan" />
+      <TextField fx:id="txtharga" layoutX="141.0" layoutY="123.0" />
+      <TextField fx:id="txtmenu" layoutX="141.0" layoutY="89.0" />
+      <TextField fx:id="txtidmenu" layoutX="141.0" layoutY="57.0" />
+      <Label layoutX="90.0" layoutY="127.0" text="harga" />
+      <Label layoutX="90.0" layoutY="93.0" text="menu" />
+      <Label layoutX="90.0" layoutY="61.0" text="id_menu" />
+   </children>
+</AnchorPane>

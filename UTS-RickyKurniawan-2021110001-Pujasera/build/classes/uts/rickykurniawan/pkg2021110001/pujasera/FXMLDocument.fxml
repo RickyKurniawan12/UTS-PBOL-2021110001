@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="599.0" prefWidth="845.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uts.rickykurniawan.pkg2021110001.pujasera.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <TableView fx:id="tbvmenu" layoutX="38.0" layoutY="41.0" prefHeight="304.0" prefWidth="762.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnawal" layoutX="38.0" layoutY="399.0" mnemonicParsing="false" onAction="#awalklik" text="Awal" />
+      <Button fx:id="btntambah" layoutX="148.0" layoutY="399.0" mnemonicParsing="false" onAction="#tambahklik" text="Tambah " />
+      <Button fx:id="btnubah" layoutX="259.0" layoutY="399.0" mnemonicParsing="false" onAction="#ubahklik" text="Ubah" />
+      <Button fx:id="btnhapus" layoutX="358.0" layoutY="399.0" mnemonicParsing="false" onAction="#hapusklik" text="Hapus" />
+      <Button fx:id="button" layoutX="463.0" layoutY="399.0" mnemonicParsing="false" text="Keluar" />
+    </children>
+</AnchorPane>

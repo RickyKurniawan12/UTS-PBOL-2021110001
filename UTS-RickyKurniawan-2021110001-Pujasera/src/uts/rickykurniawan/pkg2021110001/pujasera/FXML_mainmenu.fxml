@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="uts.rickykurniawan.pkg2021110001.pujasera.FXML_mainmenuController">
+   <children>
+      <MenuBar layoutX="5.0" layoutY="7.0" prefHeight="25.0" prefWidth="600.0">
+         <menus>
+            <Menu mnemonicParsing="false" text="Master">
+               <items>
+                  <MenuItem fx:id="mnumastersiswa" mnemonicParsing="false" onAction="#mastersiswaklik" text="Siswa" />
+                  <MenuItem fx:id="mnumastermk" mnemonicParsing="false" onAction="#mastermkklik" text="Mata kuliah" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Transaksi">
+               <items>
+                  <MenuItem fx:id="mnutransaksinilai" mnemonicParsing="false" onAction="#transaksinilaiklik" text="Penilaian" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Display">
+               <items>
+                  <MenuItem fx:id="mnudisplaysiswa" mnemonicParsing="false" onAction="#displaysiswaklik" text="siswa" />
+                  <MenuItem fx:id="mnudisplaymk" mnemonicParsing="false" onAction="#displaymkklik" text="mata kuliah" />
+                  <MenuItem fx:id="mnudisplaynilai" mnemonicParsing="false" onAction="#displaynilaiklik" text="penilaian" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Keluar">
+               <items>
+                  <MenuItem fx:id="mnukeluar" mnemonicParsing="false" onAction="#keluarklik" text="keluar" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>

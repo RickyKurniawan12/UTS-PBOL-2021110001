@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="uts.rickykurniawan.pkg2021110001.pujasera.FXML_inputtransaksiController">
+   <children>
+      <Button fx:id="btnpilihmenu" layoutX="271.0" layoutY="33.0" mnemonicParsing="false" onAction="#pilihmenuklik" text="Pilih menu" />
+      <Button fx:id="btnkeluar" layoutX="254.0" layoutY="291.0" mnemonicParsing="false" onAction="#keluarklik" text="keluar" />
+      <Button fx:id="btnhapus" layoutX="157.0" layoutY="291.0" mnemonicParsing="false" onAction="#hapusklik" text="hapus" />
+      <Button fx:id="btnsimpan" layoutX="33.0" layoutY="291.0" mnemonicParsing="false" onAction="#simpanklik" text="simpan" />
+      <Slider fx:id="sldjumlah" layoutX="122.0" layoutY="182.0" max="28.0" prefHeight="14.0" prefWidth="149.0" />
+      <TextField fx:id="txtharga" layoutX="112.0" layoutY="222.0" />
+      <DatePicker fx:id="dtptanggal" layoutX="112.0" layoutY="141.0" />
+      <TextField fx:id="txtmakanan" layoutX="112.0" layoutY="63.0" />
+      <TextField fx:id="txtid_transaksi" layoutX="112.0" layoutY="33.0" />
+      <Label fx:id="lbljumlah" layoutX="32.0" layoutY="181.0" text="jumlah" />
+      <Label layoutX="36.0" layoutY="227.0" text="harga" />
+      <Label layoutX="30.0" layoutY="146.0" text="tanggal" />
+      <Label fx:id="lblmakanan" layoutX="39.0" layoutY="67.0" text="makanan" />
+      <Label layoutX="39.0" layoutY="37.0" text="id_transaksi" />
+      <Label fx:id="lblminuman" layoutX="39.0" layoutY="105.0" text="minuman" />
+      <TextField fx:id="txtminuman" layoutX="112.0" layoutY="101.0" />
+   </children>
+</AnchorPane>
